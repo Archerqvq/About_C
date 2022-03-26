@@ -1,0 +1,1 @@
+// 1 -4 7 -10 #include <stdio.h>int main(void){	int n;	int m = 1;	int m1 = -4;	double sum = 0;	printf("Enter:");	scanf("%d", &n);			for(int x = n; x > 0; x--){		// m += 6;			if(x % 2 != 0){					sum += m;			 m += 6;		}	}		for(int x = n; x > 0; x--){		// m1 -= 6;		if(x % 2 == 0){			sum += m1;			m1 -= 6;		}	}	printf("%.3lf", sum);	return 0;}
